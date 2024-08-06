@@ -14,7 +14,7 @@ public class Code5 {
     }
     public static void main(String[] args) {
         int n=5;
-        int ans=1;
+        int ans=0;
         System.out.println(fact(n));
         System.out.println(factTail(n,ans));
     }
