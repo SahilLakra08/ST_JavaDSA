@@ -1,5 +1,4 @@
 package Day2;
-
 public class ValidParanthesis {
     static void genParanthesis(int n,int l,int r,String ans){
         if(l==n && l==r){
