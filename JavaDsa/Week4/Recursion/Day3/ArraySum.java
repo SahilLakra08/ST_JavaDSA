@@ -24,10 +24,8 @@ public class ArraySum {
         }
         return true;
     }
-   
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5,6,7};
-        
         arrSum(arr, 0, 14);
         System.out.println(sum);
         System.out.println(backTrackSumArray(arr,0,0));
